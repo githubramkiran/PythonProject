@@ -12,3 +12,4 @@ httpx
 fastapi 
 uvicorn
 uv
+langgraph-cli[inmem]
