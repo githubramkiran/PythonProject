@@ -1,0 +1,15 @@
+streamlit
+langchain
+langchain-chroma
+langchain-google-genai
+langchain-community
+pypdf
+pycryptodome
+langgraph 
+langchain-core  
+requests 
+httpx 
+fastapi 
+uvicorn
+uv
+langgraph-cli[inmem]
