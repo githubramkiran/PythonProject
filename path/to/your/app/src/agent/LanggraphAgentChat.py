@@ -23,8 +23,8 @@ def call_model(state: MessagesState):
 builder = StateGraph(MessagesState)
 builder.add_node("chatbot", call_model)
 builder.add_edge(START, "chatbot")
-graph = builder.compile()
-#graph = builder.compile(checkpointer=checkpointer)
+#graph = builder.compile()
+graph = builder.compile(checkpointer=checkpointer)
 
 # 2. Define Request Schema
 class ChatRequest(BaseModel):
@@ -59,5 +59,6 @@ async def chat_endpoint(request: ChatRequest):
 
 if __name__ == "__main__":
     import uvicorn
+
 
     uvicorn.run(app, host="0.0.0.0", port=4000)
