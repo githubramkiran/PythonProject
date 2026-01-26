@@ -2,7 +2,7 @@
   "$schema": "https://langgraph/schema.json",
   "dependencies": ["."],
   "graphs": {
-    "agent": "./path/to/your/app/src/agent/graph.py:graph"
+    "agent": "./path/to/your/app/src/agent/LanggraphAgentChat.py:graph"
   },
   "env": ".env",
   "image_distro": "wolfi"
