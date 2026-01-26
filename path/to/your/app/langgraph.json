@@ -1,6 +1,6 @@
 {
   "$schema": "https://langgraph/schema.json",
-  "dependencies": ["."],
+  "dependencies": ["langchain,langchain-google-genai,langchain-community,langgraph,langchain-core,requests,httpx,fastapi,uvicorn,uv"],
   "graphs": {
     "agent": "./path/to/your/app/src/agent/LanggraphAgentChat.py:graph"
   },
