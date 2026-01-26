@@ -50,5 +50,5 @@ graph = (
     StateGraph(State, context_schema=Context)
     .add_node(call_model)
     .add_edge("__start__", "call_model")
-    .compile(name="New Graph")
+    .compile(name="graph")
 )
