@@ -18,7 +18,8 @@ dependencies = [
     "langchain-fireworks",
     "langchain-openai",
     "langchain-tavily",
-    "python-dotenv"
+    "python-dotenv",
+    "streamlit"
 ]
 
 
