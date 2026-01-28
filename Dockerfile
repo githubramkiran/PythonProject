@@ -40,5 +40,4 @@ RUN uv pip uninstall --system pip setuptools wheel && rm /usr/bin/uv /usr/bin/uv
 
 
 WORKDIR /deps/app
-uvicorn src.agent.LanggraphAgentChat:app --host 0.0.0.0 --port 10000 
-streamlit run src.agent.streamlitchatAPIcall.py
+
